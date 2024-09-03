@@ -1,0 +1,10 @@
+salario = float(input("Qual é o salário?: "))
+vendas = float(input("Quantos carros foram vendidos? "))
+percentual_vendas = float(input("Qual o valor total das vendas? "))
+comissao = float(700*vendas)
+valor_vendas = 0.5
+
+valor_total = percentual_vendas*valor_vendas
+salario_final = (salario+comissao)*valor_total
+
+print(f"Esse é o salário final: R${salario_final:.2f}")
